@@ -83,7 +83,7 @@ It takes some time so please ensure that you do this well before the deadline.
     </td>
     <td>
 	<ul>		      
-		<li> Grey Kuling on Big Data In Health Care: Using Analytics To Identify And Manage High-Risk And High-Cost Patients </li>
+		<li> </li>
 	 </ul>
     </td>
     <td>
@@ -106,14 +106,14 @@ It takes some time so please ensure that you do this well before the deadline.
     </td>
     <td>
       <ol>
-        <li>David Burns on Deep Barcodes for Fast Retrieval of Histopathology Scans</li>
-        <li>Adamo Young and Michael Dimmick on GRAM: Graph-based Attention Model for Healthcare Representation Learning</li>
-        <li>Geoff Klein and Matt Hemsley on Deep MR to CT Synthesis using Unpaired Data</li>
-        <li>Phil Boyer on What-If Reasoning with Counterfactual Gaussian Processes</li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
       </ol>
     </td>
     <td>
-      Office Hours for Homework will be held on Wednesday, Jan 23 at 4-6pm in GB 405.
+      Office Hours for Homework will be held this week.
 	<br><br>    
 	<b> Reflection Questions on Required Papers</b>: 
 	<ul>		      
@@ -133,10 +133,10 @@ It takes some time so please ensure that you do this well before the deadline.
     </td>
     <td>
       <ol>
-        <li>Matthew MacKay and Amanjit Singh Kainth on Learning Fair Representations</li>
-        <li>Duc Truong on Equality of Opportunity in Supervised Learning</li>
-        <li>Punit Shah  on Evaluating Reinforcement Learning Algorithms in Observational Health Settings</li>
-        <li>Devin Singh on Use of GANs in Medical Imaging </li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
       </ol>
     </td>
     <td>
@@ -160,10 +160,10 @@ It takes some time so please ensure that you do this well before the deadline.
     </td>
     <td>
       <ol>
-        <li>Allen Lee</li>
-        <li>Kelvin Wong and Shun Da Suo on Disease-Atlas: Navigating Disease Trajectories using Deep Learning</li>
-        <li>Seung Eun Yi and Chantal Shaib on Clinical Intervention Prediction and Understanding with Deep Neural Networks</li>
-        <li>Pouria Mashouri on Towards Understanding ECG Rhythm Classification Using Convolutional Neural Networks and Attention Mappings</li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
       </ol>
     </td>
     <td>
@@ -183,10 +183,10 @@ It takes some time so please ensure that you do this well before the deadline.
     </td>
     <td>
       <ol>
-        <li>Sapir Labes on Systematic Analysis of Breast Cancer Morphology Uncovers Stromal Features Associated with Survival</li>
-        <li>Hong Yue Sean Liu and Yan Li on Development and Validation of a Deep Learning Algorithm for Detection of Diabetic Retinopathy in Retinal Fundus Photographs</li>
-        <li>Srinivasan Sivanandan on CheXNet: Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning</li>
-        <li>Vineeth Bhaskara Dermatologist-level classification of skin cancer with deep neural networks</li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
       </ol>
     </td>
     <td>
@@ -211,18 +211,14 @@ It takes some time so please ensure that you do this well before the deadline.
     </td>
     <td>
       <ol>
-        <li>Sumeet Ranka and Vaibhav Saxena on Mayo clinical Text Analysis and Knowledge Extraction System (cTAKES): architecture, component evaluation and applications</li>
         <li></li>
-        <li>Yingying Fu and Eric Wan on Multi-Label Learning from Medical Plain Text with Convolutional Residual Models</li>
-        <li>Jienan Yao and Matthew Wong on Natural Language Processing, Electronic Health Records, and Clinical Research</li>
+        <li></li>
+        <li></li>
+        <li></li>
       </ol>
     </td>
     <td>
-	<b> Reflection Questions on Required Papers</b>: 
-	<ul>		      
-		<li> How could external knowledge could be added to clinical NLP models and for what tasks might that make sense?</li>
-		<li> How could clinical NLP benefit from using structured EHR data?</li>
-	</ul>	   	    
+	   	    
     </td>
   </tr>
   <tr>
@@ -238,10 +234,10 @@ It takes some time so please ensure that you do this well before the deadline.
     </td>
     <td>
       <ol>
-        <li>Sindhu C M Gowda on A reduced dimension fMRI shared response model</li>
-        <li>Daniel Dastoor and Joanna Pineda on Scalable and accurate deep learning with electronic health records</li>
-        <li>Brenna Li on Meaningless comparisons lead to false optimism in medical machine learning</li>
-        <li>Sneha Desai on A Reinforcement Learning Approach to Weaning of Mechanical Ventilation in Intensive Care Units</li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
       </ol>
     </td>
     <td>
@@ -264,10 +260,10 @@ It takes some time so please ensure that you do this well before the deadline.
     </td>
     <td>
       <ol>
-        <li>Jacob Kelly and Jeevaa Velayutham on Semi-supervised Biomedical Translation with Cycle Wasserstein Regression GANs</li>
-        <li>Pulkit Mathur and Zhen Gou on Recommender Systems: Missing Data and Statistical Model Estimation</li>
-        <li>Yuyang Liu and Chris Meaney on Recurrent Neural Networks for Multivariate Time Series with Missing Values</li>
-        <li>Angeline Yasodhara and Marta Skreta on Why is my Classifier Discriminatory?</li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
       </ol>
     </td>
     <td>
@@ -290,10 +286,8 @@ It takes some time so please ensure that you do this well before the deadline.
     </td>
     <td>
       <ol>
-        <li>Alex Lu and Amy Lu on Implications of non-stationarity on predictive modeling using EHRs</li>
-        <li>Fizza Ahmad Sheikh and Daniel Hidru on Development and Validation of a Deep Learning Algorithm for Detection of Diabetic Retinopathy in Retinal Fundus Photographs</li>
-        <li>Sean Segal and Sergio Casas on Multi-task Prediction of Disease Onsets from Longitudinal Lab Tests</li>
-        <li>Zhen Yang and Chenzi Qie on Improving Prediction of Suicide and Accidental Death After Discharge From General Hospitals With Natural Language Processing</li>
+	<li></li>
+        <li></li>
       </ol>
     </td>
     <td>
@@ -315,10 +309,8 @@ It takes some time so please ensure that you do this well before the deadline.
     </td>
     <td>
       <ol>
-        <li>Pouria Mashouri on Towards Understanding ECG Rhythm Classification Using Convolutional Neural Networks and Attention Mappings</li>
-        <li>Siva Manivasagam and Min Bai on Rationalizing Neural Predictions</li>
-        <li>Shagun Gupta and Chun-Hao Chang on Intelligible Models for HealthCare: Predicting Pneumonia Risk and Hospital 30-day Readmission</li>
-        <li>Angad Kalra on Why policymakers should care about “big data” in healthcare</li>
+        <li></li>
+        <li></li>
       </ol>
     </td>
     <td>
