@@ -19,11 +19,11 @@ Course Title: Topics in Machine Learning: Machine Learning for Health<br>
 Time: Thursdays 1 PM - 3 PM <br>
 Room: <a href="http://map.utoronto.ca/utsg/building/070">GB 221</a><br>
 
-TAs: Taylor Killian, Nathan Ng<br>
+TAs: Taylor Killian, Nathan Ng, Haoran Zhang<br>
 
-Markus: <a href="https://markus.teach.cs.toronto.edu/csc2541-2019-01">https://markus.teach.cs.toronto.edu/csc2541-2019-01</a><br>
+Markus: <a href="https://markus.teach.cs.toronto.edu/csc2541-2020-01">https://markus.teach.cs.toronto.edu/csc2541-2020-01</a><br>
 
-Piazza: <a href="https://piazza.com/utoronto.ca/winter2019/csc2541">https://piazza.com/utoronto.ca/winter2019/csc2541</a>
+Piazza: <a href="https://piazza.com/utoronto.ca/winter2020/csc2541">https://piazza.com/utoronto.ca/winter2020/csc2541</a>
 </p>
 
 
