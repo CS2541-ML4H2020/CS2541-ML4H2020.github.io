@@ -58,7 +58,7 @@ It takes some time so please ensure that you do this well before the deadline.
     <th>Deadlines</th>
   </tr>
   <tr>
-    <td>Jan 10, 2019 </td>
+    <td>Jan 9, 2019 </td>
     <td>Lecture 1: Why is healthcare unique? <br> <a href="https://cs2541-ml4h2019.github.io/lectures/CSC2541 - Lecture 1.pdf"> Slides </a> </td> 
     <td>
       <ul>
@@ -72,7 +72,7 @@ It takes some time so please ensure that you do this well before the deadline.
     </td>
   </tr>
   <tr>
-    <td>Jan 17, 2019 </td>
+    <td>Jan 16, 2019 </td>
     <td>Lecture 2: Supervised Learning for Classification, Risk Scores and Survival <br> <a href="https://cs2541-ml4h2019.github.io/lectures/CSC2541 - Lecture 2.pdf"> Slides </a> </td> 
     <td>
       <ul>		      
@@ -87,15 +87,11 @@ It takes some time so please ensure that you do this well before the deadline.
 	 </ul>
     </td>
     <td>
-	<b> Reflection Questions on Required Papers</b>: 
-	<ul>		      
-		<li> Contrast the predictive tasks (e.g., labels in the objective function) in each of the required papers; what are the benefits and drawbacks of each?</li>
-		<li> Would you deploy any of these supervised models?</li>
-	</ul>
+	<b> Reflection Questions on Required Papers</b>
     </td>
   </tr>
   <tr>
-    <td>Jan 24, 2019</td>
+    <td>Jan 23, 2019</td>
     <td>Lecture 3: Causal inference with observational data<br> <a href="https://cs2541-ml4h2019.github.io/lectures/CSC2541 - Lecture 3.pdf"> Slides </a> </td> 
     <td>
       <ul>
@@ -113,17 +109,11 @@ It takes some time so please ensure that you do this well before the deadline.
       </ol>
     </td>
     <td>
-      Office Hours for Homework will be held this week.
-	<br><br>    
-	<b> Reflection Questions on Required Papers</b>: 
-	<ul>		      
-		<li> Describe causal identifiability, and its impact on learning with observational data?</li>
-		<li> What is the difference between a standard  Gaussian Process (GP) and a causal GP (CGP) objective function? How does that impact learning?</li>
-	</ul>	    
+	<b> Reflection Questions on Required Papers</b>	    
     </td>
   </tr>
   <tr>
-    <td>Jan 31, 2019</td>
+    <td>Jan 30, 2019</td>
     <td>Lecture 4: Fairness, Ethics, and Healthcare<br> <a href="https://cs2541-ml4h2019.github.io/lectures/CSC2541 - Lecture 4.pdf"> Slides </a> </td>
     <td>
       <ul>
@@ -140,15 +130,11 @@ It takes some time so please ensure that you do this well before the deadline.
       </ol>
     </td>
     <td>
-	<b> Reflection Questions on Required Papers</b>: 
-	<ul>		      
-		<li> What are ways that bias can enter into a machine learning model's predictions?</li>
-		<li> Are there reasons that bias in medical data may be harder to detect or distentangle?</li>
-	</ul>
+	<b> Reflection Questions on Required Papers</b>	   
     </td>
   </tr>
   <tr>
-    <td id="feb">Feb 7, 2019</td>
+    <td id="feb">Feb 6, 2019</td>
     <td>Lecture 5: Clinical Time Series Modelling<br> <a href="https://cs2541-ml4h2019.github.io/lectures/CSC2541 - Lecture 5.pdf"> Slides </a> </td>
     <td>
       <ul>
@@ -172,7 +158,7 @@ It takes some time so please ensure that you do this well before the deadline.
     </td>
   </tr>
   <tr>
-    <td>Feb 14, 2019</td>
+    <td>Feb 13, 2019</td>
     <td>Lecture 6: Clinical Imaging (Radiology/Pathology)<br> <a href="https://cs2541-ml4h2019.github.io/lectures/CSC2541 - Lecture 6.pdf"> Slides </a> </td> 
     <td>
       <ul>
@@ -192,15 +178,11 @@ It takes some time so please ensure that you do this well before the deadline.
     <td>
 	    Project proposals due at 5PM <a href="https://docs.google.com/forms/d/e/1FAIpQLSfOSqcEhOnDvTmkMlOViUY1YF7i3eZOs6RumhWtiihrdBVVag/viewform?usp=sf_link">here</a>.
 	<br><br>
-	<b> Reflection Questions on Required Papers</b>: 
-	<ul>		      
-		<li> What are some cirtical differences between clinical imaging and images found in standard vision datasets?</li>
-		<li> Are there standard pre-processing or modelling techniques that don't make sense in clinical images?</li>
-	</ul>	    
+	<b> Reflection Questions on Required Papers</b>     
     </td>
   </tr>
   <tr>
-    <td>Feb 21, 2019</td>
+    <td>Feb 20, 2019</td>
     <td>Lecture 7: Clinical NLP and Audio<br> <a href="https://cs2541-ml4h2019.github.io/lectures/CSC2541 - Lecture 7.pdf"> Slides </a> </td> 
     <td>
       <ul>
@@ -218,11 +200,11 @@ It takes some time so please ensure that you do this well before the deadline.
       </ol>
     </td>
     <td>
-	   	    
+	<b> Reflection Questions on Required Papers</b>    	    
     </td>
   </tr>
   <tr>
-    <td>Feb 28, 2019</td>
+    <td>Feb 27, 2019</td>
     <td>Lecture 8: Clinical Reinforcement Learning<br> <a href="https://cs2541-ml4h2019.github.io/lectures/CSC2541 - Lecture 8.pdf"> Slides </a> </td> 
     <td>
       <ul>
@@ -241,15 +223,11 @@ It takes some time so please ensure that you do this well before the deadline.
       </ol>
     </td>
     <td>
-	<b> Reflection Questions on Required Papers</b>: 
-	<ul>		      
-		<li> What are particular problems with off-policy evaluation in a clinical RL setting?</li>
-		<li> What problems can arise with the action and state spaces chosen in the papers?</li>
-	</ul>		    
+	<b> Reflection Questions on Required Papers</b>    
     </td>
   </tr>
   <tr>
-    <td id="mar">Mar 7, 2019</td>
+    <td id="mar">Mar 5, 2019</td>
     <td>Lecture 9: Missingness and Representations<br> <a href="https://cs2541-ml4h2019.github.io/lectures/CSC2541 - Lecture 9.pdf"> Slides </a> </td> 
     <td>
       <ul>
@@ -267,16 +245,11 @@ It takes some time so please ensure that you do this well before the deadline.
       </ol>
     </td>
     <td>
-      <b> Reflection Questions on Required Papers</b>: 
-      <ul>          
-        <li> Briefly discuss the techniques used in these papers to address the missingness/sparsity in electronic medical records.</li>
-        <li> How does the current patient state affect the types of data that are collected in the future?</li>
-        <li> Discuss if/how the models capture and propogate the patients' previous states for predicting clinical events.</li>
-      </ul>	    
+      <b> Reflection Questions on Required Papers</b>	    
     </td>
   </tr>
   <tr>
-    <td>Mar 14, 2019</td>
+    <td>Mar 12, 2019</td>
     <td>Lecture 10: Generalization and transfer learning<br> <a href="https://cs2541-ml4h2019.github.io/lectures/CSC2541 - Lecture 10.pdf"> Slides </a> </td> 
     <td>
       <ul>
@@ -291,15 +264,11 @@ It takes some time so please ensure that you do this well before the deadline.
       </ol>
     </td>
     <td>
-      <b> Reflection Questions on Required Papers</b>: 
-      <ul>          
-        <li> Does multi-task learning inherently create more generalizable models?</li>
-        <li>Are there conditions for which non-stationarity could be ignored in model training and deployment?</li>
-      </ul>	    
+      <b> Reflection Questions on Required Papers</b>    
     </td>
   </tr>
   <tr>
-    <td>Mar 21, 2019</td>
+    <td>Mar 19, 2019</td>
     <td>Lecture 11: Interpretability / Humans-In-The-Loop / Policies and Politics</td> 
     <td>
       <ul>
@@ -314,16 +283,11 @@ It takes some time so please ensure that you do this well before the deadline.
       </ol>
     </td>
     <td>
-      <b> Reflection Questions on Required Papers</b>: 
-      <ul>   	    
-	<li> What are possible ways that a model could be verified as interpretable? </li>
-        <li> Should machine learning models deployed in healthcare settings be held to a higher standard than other application areas? </li>
-        <li> What concerns should policy makers have about deploying models to minimize hospital costs?</li>
-    </ul>
+      <b> Reflection Questions on Required Papers</b>
     </td>
   </tr>
   <tr>
-    <td>Mar 28, 2019</td>
+    <td>Mar 26, 2019</td>
     <td>Course Presentations</td> 
     <td></td>
     <td>
@@ -331,16 +295,8 @@ It takes some time so please ensure that you do this well before the deadline.
     <td></td>
   </tr>
   <tr>
-    <td>April 4, 2019</td>
+    <td>April 2, 2019</td>
     <td>Course Presentations</td> 
-    <td></td>
-    <td>
-    </td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>April 11, 2019</td>
-    <td>Projects Due</td> 
     <td></td>
     <td>
     </td>
