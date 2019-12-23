@@ -1,0 +1,395 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Expires" content="0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Lato|Roboto&display=swap" rel="stylesheet">
+<!--    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"> -->
+	<link href="./statics/style.css" rel="stylesheet" type="text/css">
+	<title>CSC2541HS: Machine Learning for Health </title>
+</head>
+
+<body style="">
+
+	<h1>CSC2541HS: Topics in Machine Learning: Machine Learning for Health</h1>
+
+
+	<span class="menu">
+		<a href="#overview">Overview</a> |
+		<a href="#course">Course Description</a> |
+		<a href="#grading">Grading</a> |
+		<a href="#schedule">Schedule</a> |
+		<a href="#reflections">Weekly Reflections</a> |
+		<a href="#presentation">Paper Presentation</a> |
+		<a href="#problems">Problem Sets</a> |
+		<a href="#finalp">Final Project</a> 
+
+	</span>
+
+<!--   <h3>Announcements</h3>
+
+   <ul>
+     <li></li>
+ 
+ </ul>   <hr> -->
+
+ <hr>
+ <a name="overview"> </a>
+ <h3>Overview</h3>
+ <p>Instructor: <a href="http://www.marzyehghassemi.com/">Dr. Marzyeh Ghassemi</a><br>
+ 	Time: Thursdays 1 PM - 3 PM <br>
+ 	Room: <a href="http://map.utoronto.ca/utsg/building/070">GB 221</a><br>
+
+ 	TAs: Taylor Killian, Nathan Ng, Haoran Zhang<br>
+
+ 	Markus: <a href="https://markus.teach.cs.toronto.edu/csc2541-2020-01">https://markus.teach.cs.toronto.edu/csc2541-2020-01</a><br>
+
+ 	Piazza: <a href="https://piazza.com/utoronto.ca/winter2020/csc2541">https://piazza.com/utoronto.ca/winter2020/csc2541</a>
+ </p>
+
+
+
+ <hr>
+
+ <a name="course"> </a>
+ <h3>Course description</h3>
+ <p>This course will give a broad overview of machine learning for health. We begin with an overview of what makes healthcare unique, and then explore machine learning methods for clinical and healthcare applications through recent papers. We discuss the recent successes of of graphical models, deep learning, time-series analysis, and transfer learning in the context of health. We also broadly cover concepts of learning, algorithmic fairness, interpretability, and causality. We emphasize the importance of collaboration between technical and non-technical researchers, and consider the implications of machine learning in healthcare governance and policy. Students will choose and complete a course project, and make project presentations at the end of the course.
+ </p>
+
+ <p>This course requires a strong background in linear algebra and probability theory, or strong grades in the machine learning course. Familiarity with programming and software engineering is beneficial, but not required.
+ </p>
+
+ <p>
+ 	<font color="red">CSC2541 will be capped to students who have an appropriate background this semester. If you are interested in taking the course, please come to our first lecture and fill out the course application <a href="https://goo.gl/forms/DFm2SPYZTUiVrsEk2">https://goo.gl/forms/DFm2SPYZTUiVrsEk2</a> </font>
+ </p>
+
+ <hr>
+
+ <a name="grading"></a>
+ <h3>Grading</h3>
+ <p>Course grade will be made up of:
+ 	<ul>
+ 		<li><b>10%</b> <a href="#reflections">Weekly Reflections</a> </li>
+ 		<li><b>15%</b> <a href="#problems">Problem Sets</a>  </li>
+ 		<li><b>15%</b> <a href="#presentation">Paper Presentation</a></li>
+ 		<li><b>60%</b> <a href=#finalp>Course project</a></li>
+ 	</ul>
+ </p>
+
+ <hr>
+
+ <a name="schedule"></a>
+ <h3>Schedule</h3>
+</a>
+<table border="1" width="80%">
+	<tbody><tr>
+		<th>Week</th>
+		<th>Date</th> 
+		<th style="width:50%">Lecture Materials</th>
+		<th>Presentations</th>
+		<th>Assignments</th>
+	</tr>
+
+	<tr>
+		<td>1</td>
+		<td>Jan 9, 2020</td> 
+		<td>
+			<div class="lectureTitle">Why is healthcare unique?</div>
+
+			<div class="lectureInfo">
+				<ul>
+					<li>[<span class="slides">Slides</span>] <a href="https://cs2541-ml4h2020.github.io/lectures/CSC2541 - Lecture 1.pdf">Lecture 1</a></li>
+					<li>[<span class="required">Required</span>] <a href="https://arxiv.org/pdf/1806.00388.pdf">Opportunities in Machine Learning for Healthcare</a></li> 
+					<li>[<span class="required">Required</span>] <a href="https://www.bmj.com/content/361/bmj.k1479">Biases in electronic health record data due to processes within the healthcare system: retrospective observational study</a></li> 
+				</ul>
+			</div>
+		</td>
+		<td></td> 
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>2</td>
+		<td>Jan 16, 2020</td> 
+		<td>
+			<div class="lectureTitle">Supervised Learning for Classification, Risk Scores and Survival</div>
+
+			<div class="lectureInfo">
+				<ul>
+					<li>[<span class="slides">Slides</span>] <a href="https://cs2541-ml4h2020.github.io/lectures/CSC2541 - Lecture 2.pdf">Lecture 2</a></li> 
+					<li>[<span class="required">Required</span>] <a href="https://www.nature.com/articles/s41598-018-24271-9">Recurrent Neural Networks for Multivariate Time Series with Missing Values</a></li> 
+					<li>[<span class="required">Required</span>] <a href="https://academic.oup.com/jamia/article/24/3/488/2907906">Understanding vasopressor intervention and weaning: risk prediction in a public heterogeneous clinical time series database </a>  </li>
+					<li>[<span class="required">Required</span>] <a href="https://arxiv.org/abs/1608.02158">Deep Survival Analysis </a>  </li>             
+				</ul>
+			</div>
+		</td>
+		<td></td> 
+		<td>Week 2 Reflections</td>
+	</tr>
+
+	<tr>
+		<td>3</td>
+		<td>Jan 23, 2020</td> 
+		<td>
+			<div class="lectureTitle">Causal inference with observational data</div>
+
+			<div class="lectureInfo">
+				<ul>
+					<li>[<span class="slides">Slides</span>] <a href="https://cs2541-ml4h2020.github.io/lectures/CSC2541 - Lecture 3.pdf">Lecture 3</a></li> 
+					<li>[<span class="required">Required</span>] <a href="https://www.jstor.org/stable/2289064">Statistics and Causal Inference</a></li> 
+					<li>[<span class="required">Required</span>] <a href="http://stm.sciencemag.org/content/7/299/299ra122">A targeted real-time early warning score (TREWScore) for septic shock. </a>  </li>
+					<li>[<span class="required">Required</span>] <a href="https://papers.nips.cc/paper/6767-reliable-decision-support-using-counterfactual-models.pdf">Reliable Decision Support using Counterfactual Models </a>  </li>
+				</ul>
+			</div>
+		</td>
+		<td></td> 
+		<td>Week 3 Reflections</td>
+	</tr>
+
+	<tr>
+		<td>4</td>
+		<td>Jan 30, 2020</td> 
+		<td>
+			<div class="lectureTitle">Fairness, Ethics, and Healthcare</div>
+
+			<div class="lectureInfo">
+				<ul>
+					<li>[<span class="slides">Slides</span>] <a href="https://cs2541-ml4h2020.github.io/lectures/CSC2541 - Lecture 4.pdf">Lecture 4</a></li> 
+					<li>[<span class="required">Required</span>] <a href="http://www.jmlr.org/proceedings/papers/v28/zemel13.pdf">Learning Fair Representations</a></li> 
+					<li>[<span class="required">Required</span>] <a href="https://arxiv.org/pdf/1805.12002.pdf">Why is My Classifier Discriminatory?</a>  </li>
+				</ul>
+			</div>
+		</td>
+		<td></td> 
+		<td>Week 4 Reflections</td>
+	</tr>
+
+	<tr>
+		<td>5</td>
+		<td>Feb 6, 2020</td> 
+		<td>
+			<div class="lectureTitle">Clinical Time Series Modelling</div>
+
+			<div class="lectureInfo">
+				<ul>
+					<li>[<span class="slides">Slides</span>] <a href="https://cs2541-ml4h2020.github.io/lectures/CSC2541 - Lecture 5.pdf">Lecture 5</a></li> 
+					<li>[<span class="required">Required</span>] <a href="http://mucmd.org/CameraReadySubmissions/65%5CCameraReadySubmission%5Cclinical-intervention-prediction%20(4).pdf">Clinical Intervention Prediction and Understanding with Deep Neural Networks</a></li> 
+					<li>[<span class="required">Required</span>] <a href="https://static1.squarespace.com/static/59d5ac1780bd5ef9c396eda6/t/5b73729d562fa79aabf87383/1534292642748/9.pdf">Towards Understanding ECG Rhythm Classification Using Convolutional Neural Networks and Attention Mappings</a>  </li>
+					<li>[<span class="required">Required</span>] <a href="https://static1.squarespace.com/static/59d5ac1780bd5ef9c396eda6/t/5b7372dc1ae6cf102e27b7e7/1534292701747/13.pdf">Disease-Atlas: Navigating Disease Trajectories using Deep Learning</a>  </li>
+					<li>[<span class="required">Required</span>] <a href="http://www.sciencedirect.com/science/article/pii/S1532046414000847">Identifying and mitigating biases in EHR laboratory tests</a>  </li>
+				</ul>
+			</div>
+		</td>
+		<td></td> 
+		<td>Week 5 Reflections <br> Problem Set 1 (Feb 7 at 11:59pm)</td>
+	</tr>
+
+	<tr>
+		<td>6</td>
+		<td>Feb 13, 2020</td> 
+		<td>
+			<div class="lectureTitle">Clinical Imaging (Radiology/Pathology)</div>
+
+			<div class="lectureInfo">
+				<ul>
+					<li>[<span class="slides">Slides</span>] <a href="https://cs2541-ml4h2020.github.io/lectures/CSC2541 - Lecture 6.pdf">Lecture 6</a></li> 
+					<li>[<span class="required">Required</span>] <a href="https://ieeexplore.ieee.org/abstract/document/8217719/"> Deep learning assessment of tumor proliferation in breast cancer histological images</a></li> 
+					<li>[<span class="required">Required</span>] <a href="https://arxiv.org/pdf/1711.05225.pdf">CheXNet: Radiologist-level pneumonia detection on chest X-rays with deep learning</a>  </li>
+					<li>[<span class="required">Required</span>] <a href="https://www.nature.com/articles/nature21056.epdf">Dermatologist-level classification of skin cancer with deep neural networks</a>  </li>
+				</ul>
+			</div>
+		</td>
+		<td></td> 
+		<td>Week 6 Reflections <br> Project proposals (Feb 13 at 5pm)</td>
+	</tr>
+
+	<tr>
+		<td>7</td>
+		<td>Feb 20, 2020</td> 
+		<td>
+			<div class="lectureTitle">Clinical NLP and Audio</div>
+
+			<div class="lectureInfo">
+				<ul>
+					<li>[<span class="slides">Slides</span>] <a href="https://cs2541-ml4h2020.github.io/lectures/CSC2541 - Lecture 7.pdf">Lecture 7</a></li> 
+					<li>[<span class="required">Required</span>] <a href="https://static1.squarespace.com/static/59d5ac1780bd5ef9c396eda6/t/5b7373cc032be4fab0075363/1534292941994/30.pdf"> Multi-Label Learning from Medical Plain Text with Convolutional Residual Models</a></li> 
+					<li>[<span class="required">Required</span>] <a href="http://people.dbmi.columbia.edu/~chw7007/papers/chapter%2016.pdf">Natural Language Processing, Electronic Health Records, Clinical Research</a>  </li>
+					<li>[<span class="required">Required</span>] <a href="https://academic.oup.com/jamia/article-abstract/17/5/507/830823"> Mayo clinical Text Analysis and Knowledge Extraction System (cTAKES): architecture, component evaluation and applications</a>  </li>
+					<li>[<span class="optional">Optional</span>] <a href="https://arxiv.org/abs/1808.08485"> Deep Probabilistic Logic: A Unifying Framework for Indirect Supervision</a>  </li>
+				</ul>
+			</div>
+		</td>
+		<td></td> 
+		<td>Week 7 Reflections</td>
+	</tr>
+
+	<tr>
+		<td>8</td>
+		<td>Feb 27, 2020</td> 
+		<td>
+			<div class="lectureTitle">Clinical Reinforcement Learning</div>
+
+			<div class="lectureInfo">
+				<ul>
+					<li>[<span class="slides">Slides</span>] <a href="https://cs2541-ml4h2020.github.io/lectures/CSC2541 - Lecture 8.pdf">Lecture 8</a></li> 
+					<li>[<span class="required">Required</span>] <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3143507/pdf/nihms266705.pdf"> Informing sequential clinical decision-making through reinforcement learning: an empirical study</a></li> 
+					<li>[<span class="required">Required</span>] <a href="https://arxiv.org/pdf/1704.06300.pdf">A Reinforcement Learning Approach to Weaning of Mechanical Ventilation in Intensive Care Units</a>  </li>
+					<li>[<span class="required">Required</span>] <a href="https://arxiv.org/pdf/1707.06289.pdf"> Meaningless comparisons lead to false optimism in medical machine learning</a>  </li>
+					<li>[<span class="required">Required</span>] <a href="https://arxiv.org/pdf/1805.12298.pdf"> Evaluating Reinforcement Learning Algorithms in Observational Health Settings</a>  </li>
+				</ul>
+			</div>
+		</td>
+		<td></td> 
+		<td>Week 8 Reflections <br> Problem Set 2 (Feb 28 at 11:59pm)</td>
+	</tr>
+
+
+	<tr>
+		<td>9</td>
+		<td>Mar 5, 2020</td> 
+		<td>
+			<div class="lectureTitle">Missingness and Representations</div>
+
+			<div class="lectureInfo">
+				<ul>
+					<li>[<span class="slides">Slides</span>] <a href="https://cs2541-ml4h2020.github.io/lectures/CSC2541 - Lecture 9.pdf">Lecture 9</a></li> 
+					<li>[<span class="required">Required</span>] <a href="https://academic.oup.com/biomet/article-abstract/63/3/581/270932"> Inference and missing data</a></li> 
+					<li>[<span class="required">Required</span>] <a href="http://www.cs.toronto.edu/~zemel/documents/2011-IJCAI-MZRS.pdf">Recommender Systems: Missing Data and Statistical Model Estimation</a>  </li>
+					<li>[<span class="required">Required</span>] <a href="http://www.marzyehghassemi.com/wp-content/uploads/2018/01/semi-supervised-CWR-GAN_Ghassemi.pdf"> Semi-supervised Biomedical Translation with Cycle Wasserstein Regression GANs</a>  </li>
+				</ul>
+			</div>
+		</td>
+		<td></td> 
+		<td>Week 9 Reflections </td>
+	</tr>
+
+
+	<tr>
+		<td>10</td>
+		<td>Mar 12, 2020</td> 
+		<td>
+			<div class="lectureTitle">Generalization and transfer learning</div>
+
+			<div class="lectureInfo">
+				<ul>
+					<li>[<span class="slides">Slides</span>] <a href="https://cs2541-ml4h2020.github.io/lectures/CSC2541 - Lecture 10.pdf">Lecture 10</a></li> 
+					<li>[<span class="required">Required</span>] <a href="https://www.sciencedirect.com/science/article/pii/S1532046415002282"> Implications of non-stationarity on predictive modeling using EHRs</a></li> 
+					<li>[<span class="required">Required</span>] <a href="https://arxiv.org/pdf/1608.00647.pdf">Multi-task Prediction of Disease Onsets from Longitudinal Lab Tests</a>  </li>
+				</ul>
+			</div>
+		</td>
+		<td></td> 
+		<td>Week 10 Reflections</td>
+	</tr>
+
+	<tr>
+		<td>11</td>
+		<td>Mar 19, 2020</td> 
+		<td>
+			<div class="lectureTitle">Interpretability / Humans-In-The-Loop / Policies and Politics</div>
+
+			<div class="lectureInfo">
+				<ul>
+					<li>[<span class="slides">Slides</span>] <a href="https://cs2541-ml4h2020.github.io/lectures/CSC2541 - Lecture 11.pdf">Lecture 11</a></li> 
+					<li>[<span class="required">Required</span>] <a href="http://people.dbmi.columbia.edu/noemie/papers/15kdd.pdf"> Intelligible Models for HealthCare: Predicting Pneumonia Risk and Hospital 30-day Readmission</a></li> 
+					<li>[<span class="required">Required</span>] <a href="https://people.csail.mit.edu/taolei/papers/emnlp16_rationale.pdf">Rationalizing Neural Predictions</a>  </li>
+					<li>[<span class="required">Required</span>] <a href="https://arxiv.org/pdf/1606.03490.pdf">The Mythos of Model Interpretability</a>  </li>
+				</ul>
+			</div>
+		</td>
+		<td></td> 
+		<td>Week 11 Reflections</td>
+	</tr>
+
+
+
+	<tr>
+		<td>12</td>
+		<td>Mar 26, 2020</td> 
+		<td>
+			<div class="lectureTitle">Course Presentations</div>
+
+			<div class="lectureInfo">
+
+			</div>
+		</td>
+		<td></td> 
+		<td></td>
+	</tr>
+
+
+	<tr>
+		<td>13</td>
+		<td>Apr 2, 2020</td> 
+		<td>
+			<div class="lectureTitle">Course Presentations</div>
+
+			<div class="lectureInfo">
+
+			</div>
+		</td>
+		<td></td> 
+		<td>Project Report (Apr 3 at 11:59pm)</td>
+	</tr>
+
+</tbody></table>
+<br>
+<hr>
+
+
+<a name="reflections"></a>
+<h3>Weekly Reflections</h3> 
+<ul>
+	<li> Each week, students will complete a series of reflection questions based on the required readings for that week.</li>
+	<li> There will be ten reflections, each worth 1% of the final grade.</li>
+	<li> Note that the assigned readings (and associated reflections) are intended to be completed <b> prior to </b> the lecture for that week.</li>
+	<li> Each weekly reflection will be due at <b> 12 pm on Thursday </b> (i.e. 1 hour prior to the start of lecture) on Markus.</li>
+</ul>
+
+
+
+<hr>
+
+
+<a name="presentation"></a>
+<h3>Paper Presentations</h3>
+<hr>
+
+
+<a name="problems"></a>
+<h3>Problem Sets</h3>
+<p> There will be three problem sets, each worth 5% of the final grade. Problem sets must be done <b> individually</b>. </p>
+<h4>Problem Set 1</h4>
+<ul>
+	<li><a href="https://cs2541-ml4h2020.github.io/problem_set/CS2541-ProblemSet-1.pdf">problem set 1 (from last year)</a> </li>
+	<li>Due: <b>Feb 7 at 11:59 pm</b> on Markus </li>
+	<li>Please complete the steps required to get access to MIMIC data outlined <a href="https://mimic.physionet.org/gettingstarted/access/">here</a>. One of the steps will require you to fill out a Data Use Agreement (DUA) where you will be asked for: 
+		<ul> <li>A reference name. Write Marzyeh Ghassemi. </li><li>The general research area for which the data will be used: Write CS 2541 Homework</li> </ul>
+	</li>
+</ul>
+
+<h4>Problem Set 2</h4>
+
+
+<hr>
+
+<a name="finalp"></a>
+<h3>Final Project</h3> <br>
+<h4> Project Deadlines</h4>
+<ul>
+	<li>Project proposals (one per group):   </li>
+</ul>
+
+<h4> Groups</h4>
+Collaboration: We strongly prefer 3-4 registered student per group, but we do permit groups with fewer students. Doing something related to your research is fine, but your class project should be distinct and you should be able to isolate your contributions to the project from those of any collaborators outside of the class. <br><br>
+
+<h4> Proposal</h4>
+<ul>
+<li>15% of the project grade</li>
+<li>Due <b>Feb 13 at 5pm</b>. </li>
+<li>More TBD </li>
+</ul>
+
+
+</body></html>

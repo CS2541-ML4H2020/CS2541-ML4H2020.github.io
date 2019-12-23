@@ -1,0 +1,80 @@
+/*@font-face {
+  font-family: 'Crimson Text';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Crimson Text Regular'), local('CrimsonText-Regular'), url(https://fonts.gstatic.com/s/crimsontext/v10/wlp2gwHKFkZgtmSR3NB0oRJfbwhT.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+*/
+body {
+  margin:      50px;
+  font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+/*  font-family: 'Lato', sans-serif;*/
+  background-color:  white;
+}
+
+h1 {
+  font-size:      xx-large;
+  padding-bottom: 0px;
+  margin-bottom:  0px;
+/*  font-family: 'Lato', sans-serif;*/
+}
+
+h3 {
+  font-size:      x-large;
+  padding-bottom: 0px;
+  margin-bottom:  0px;
+/*  font-family: 'Lato', sans-serif;*/
+}
+
+h4 {
+  font-size:      large;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top:  0px;
+  margin-bottom:  0px;
+/*  font-family: 'Lato', sans-serif;*/
+}
+
+ul {
+  margin-top: 0px;
+}
+
+#header {
+  padding-top: 0px;
+  margin-top:  0px;
+  font-size:   x-large;
+}
+
+th, td {
+  text-align: left;
+  padding: 3px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+#expandAll {
+  color: blue;
+}
+
+#expandAll:hover {
+  text-decoration: underline;
+}
+
+p.lecture {
+  margin-left: 50px;
+  margin-top:  0px;
+}
+
+span.required {
+  color:     red;
+}
+
+span.optional {
+  color:     green;
+}
+span.slides {
+  color:    #7E7E07;
+}
