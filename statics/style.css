@@ -78,3 +78,7 @@ span.optional {
 span.slides {
   color:    #7E7E07;
 }
+
+p + ol {
+    margin-top: -10px;
+}
